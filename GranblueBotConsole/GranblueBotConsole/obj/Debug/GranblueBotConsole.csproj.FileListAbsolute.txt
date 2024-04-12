@@ -1,2 +1,9 @@
 Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.AssemblyReference.cache
 Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CoreCompileInputs.cache
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.exe.config
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.exe
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.pdb
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\SimWinMouse.dll
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\Granblue.8BC98236.Up2Date
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.exe
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.pdb

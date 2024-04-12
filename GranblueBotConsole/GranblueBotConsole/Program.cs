@@ -16,6 +16,29 @@ namespace GranblueBotConsole
         static void Main(string[] args)
         {
             int choice;
+
+            Console.WriteLine("Press ESC to stop");
+            do
+            {
+                while (!Console.KeyAvailable)
+                {
+                    
+                    var data = Console.ReadKey(true).Key;
+                    Console.WriteLine(data);
+                    Point mouseObject = Cursor.Position;
+                    int positionX = mouseObject.X;
+                    int positionY = mouseObject.Y;
+                    Console.WriteLine($"({positionX},{positionY})");
+
+                    //Point mouseObject = Cursor.Position;
+                    //int positionX = mouseObject.X;
+                    //int positionY = mouseObject.Y;
+                    //Console.WriteLine($"{mouseObject.X},{mouseObject.Y}");
+
+                    //GetLivePositions();
+                }
+            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+
             while (true)
             {
                 Console.Clear();
@@ -158,17 +181,6 @@ namespace GranblueBotConsole
                     positionY = mouseObject.Y;
                     Console.WriteLine($"{mouseObject.X},{mouseObject.Y}");
                 }
-                Console.WriteLine($"Do you want to continue? [1]");
-                choice = Convert.ToInt32(Console.ReadLine());
-                if (choice == 1)
-                {
-                    continue;
-                }
-                else
-                {
-                    break;
-                }
-
             }
 
         }

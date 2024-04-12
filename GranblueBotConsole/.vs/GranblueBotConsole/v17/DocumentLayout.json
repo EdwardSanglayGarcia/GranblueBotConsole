@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|z:\\repositories\\granbluebotconsole\\granbluebotconsole\\granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|solutionrelative:granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69E7D7A-16A1-4550-86E9-AE7D5BE54CA1}|ClickingMouseLibrary\\ClickingMouseLibrary.csproj|z:\\repositories\\granbluebotconsole\\granbluebotconsole\\clickingmouselibrary\\clickingmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69E7D7A-16A1-4550-86E9-AE7D5BE54CA1}|ClickingMouseLibrary\\ClickingMouseLibrary.csproj|solutionrelative:clickingmouselibrary\\clickingmouse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C69E7D7A-16A1-4550-86E9-AE7D5BE54CA1}|ClickingMouseLibrary\\ClickingMouseLibrary.csproj|Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\clickingmouselibrary\\interop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C69E7D7A-16A1-4550-86E9-AE7D5BE54CA1}|ClickingMouseLibrary\\ClickingMouseLibrary.csproj|solutionrelative:clickingmouselibrary\\interop.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,8 +22,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Interop.cs",
+              "DocumentMoniker": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\ClickingMouseLibrary\\Interop.cs",
+              "RelativeDocumentMoniker": "ClickingMouseLibrary\\Interop.cs",
+              "ToolTip": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\ClickingMouseLibrary\\Interop.cs",
+              "RelativeToolTip": "ClickingMouseLibrary\\Interop.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T23:06:55.373Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ClickingMouse.cs",
+              "DocumentMoniker": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\ClickingMouseLibrary\\ClickingMouse.cs",
+              "RelativeDocumentMoniker": "ClickingMouseLibrary\\ClickingMouse.cs",
+              "ToolTip": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\ClickingMouseLibrary\\ClickingMouse.cs",
+              "RelativeToolTip": "ClickingMouseLibrary\\ClickingMouse.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAWwCEAAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T22:58:09.999Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -24,7 +57,7 @@
               "RelativeDocumentMoniker": "GranblueBotConsole\\Program.cs",
               "ToolTip": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Program.cs",
               "RelativeToolTip": "GranblueBotConsole\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T21:45:06.055Z",
               "EditorCaption": ""
