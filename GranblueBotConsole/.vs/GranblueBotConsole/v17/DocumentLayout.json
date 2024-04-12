@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|z:\\repositories\\granbluebotconsole\\granbluebotconsole\\granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|solutionrelative:granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Program.cs",
+              "RelativeDocumentMoniker": "GranblueBotConsole\\Program.cs",
+              "ToolTip": "Z:\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Program.cs",
+              "RelativeToolTip": "GranblueBotConsole\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAK8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-12T21:45:06.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

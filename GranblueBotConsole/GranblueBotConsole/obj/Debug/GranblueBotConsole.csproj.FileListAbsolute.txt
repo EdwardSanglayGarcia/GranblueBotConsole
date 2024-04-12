@@ -1,0 +1,2 @@
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.AssemblyReference.cache
+Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CoreCompileInputs.cache
