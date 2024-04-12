@@ -40,7 +40,7 @@ namespace GranblueBotConsole
 
             #region Test
             //GetLivePositions();
-            //RecoverPots(3);
+            //RecoverPots(4);
             #endregion
 
         }
