@@ -5,7 +5,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Drawing;
 using System.Windows.Forms;
-using SimWinInput;
 using System.Threading;
 
 
@@ -15,56 +14,72 @@ namespace GranblueBotConsole
     {
         static void Main(string[] args)
         {
-            int choice;
 
-            Console.WriteLine("Press ESC to stop");
-            do
-            {
-                while (!Console.KeyAvailable)
-                {
-                    
-                    var data = Console.ReadKey(true).Key;
-                    Console.WriteLine(data);
-                    Point mouseObject = Cursor.Position;
-                    int positionX = mouseObject.X;
-                    int positionY = mouseObject.Y;
-                    Console.WriteLine($"({positionX},{positionY})");
-
-                    //Point mouseObject = Cursor.Position;
-                    //int positionX = mouseObject.X;
-                    //int positionY = mouseObject.Y;
-                    //Console.WriteLine($"{mouseObject.X},{mouseObject.Y}");
-
-                    //GetLivePositions();
-                }
-            } while (Console.ReadKey(true).Key != ConsoleKey.Escape);
-
-            while (true)
-            {
-                Console.Clear();
-                Console.WriteLine($"Do you know the current locations?\n[1] - Run Bot\n[2] - Positions");
-                choice = Convert.ToInt32(Console.ReadLine());
-                if (choice == 1)
-                {
-                    RunningProgram();//
-                }
-                if (choice == 2)
-                {
-                    GetLivePositions();
-                }
-                else
-                {
-                    break;
-                }
-            }
+            Clicker.Testing(Clicker.Action.LeftButtonDown, 101, 95);
+            Clicker.Testing(Clicker.Action.LeftButtonUp, 101, 95);
+            Thread.Sleep(2000);
+            Clicker.Testing(Clicker.Action.LeftButtonDown, 236, 253);
+            Clicker.Testing(Clicker.Action.LeftButtonUp, 236, 253);
 
 
-            RunningProgram();
 
-            #region Test
-            //GetLivePositions();
-            //RecoverPots(4);
-            #endregion
+
+            //Test.MouseClick(101,95);
+            //Thread.Sleep(2000);
+            //Test.MouseClick(236,253);
+            ////Test.MouseClick();
+            ////Test.MouseClick();
+            //Console.Read();
+            //int choice;
+
+            //Console.WriteLine("Press ESC to stop");
+            //do
+            //{
+            //    while (!Console.KeyAvailable)
+            //    {
+
+            //        var data = Console.ReadKey(true).Key;
+            //        Console.WriteLine(data);
+            //        Point mouseObject = Cursor.Position;
+            //        int positionX = mouseObject.X;
+            //        int positionY = mouseObject.Y;
+            //        Console.WriteLine($"({positionX},{positionY})");
+
+            //        //Point mouseObject = Cursor.Position;
+            //        //int positionX = mouseObject.X;
+            //        //int positionY = mouseObject.Y;
+            //        //Console.WriteLine($"{mouseObject.X},{mouseObject.Y}");
+
+            //        //GetLivePositions();
+            //    }
+            //} while (Console.ReadKey(true).Key != ConsoleKey.Escape);
+
+            //while (true)
+            //{
+            //    Console.Clear();
+            //    Console.WriteLine($"Do you know the current locations?\n[1] - Run Bot\n[2] - Positions");
+            //    choice = Convert.ToInt32(Console.ReadLine());
+            //    if (choice == 1)
+            //    {
+            //        RunningProgram();//
+            //    }
+            //    if (choice == 2)
+            //    {
+            //        GetLivePositions();
+            //    }
+            //    else
+            //    {
+            //        break;
+            //    }
+            //}
+
+
+            //RunningProgram();
+
+            //#region Test
+            ////GetLivePositions();
+            ////RecoverPots(4);
+            //#endregion
 
         }
 
@@ -91,29 +106,29 @@ namespace GranblueBotConsole
             Thread.Sleep(2000);
 
             //Raid
-            SimMouse.Click(MouseButtons.Left, 101, 98);
+            //SimMouse.Click(MouseButtons.Left, 101, 98);
             Thread.Sleep(1500);
 
             //Potion
-            SimMouse.Click(MouseButtons.Left, 236, 153);
+            //SimMouse.Click(MouseButtons.Left, 236, 153);
             Thread.Sleep(1500);
 
             //Quantity
-            SimMouse.Click(MouseButtons.Left, 295, 547);
+            //SimMouse.Click(MouseButtons.Left, 295, 547);
             Thread.Sleep(1500);
 
             int potCoordinateSelection = 548 + (numberOfPots * 20);
 
             //Selection
-            SimMouse.Click(MouseButtons.Left, 320, potCoordinateSelection);
+            //SimMouse.Click(MouseButtons.Left, 320, potCoordinateSelection);
             Thread.Sleep(1500);
 
             //Use
-            SimMouse.Click(MouseButtons.Left, 329, 577);
+            //SimMouse.Click(MouseButtons.Left, 329, 577);
             Thread.Sleep(1500);
 
             //OK
-            SimMouse.Click(MouseButtons.Left, 261, 588);
+            //SimMouse.Click(MouseButtons.Left, 261, 588);
             Thread.Sleep(1500);
         }
 
@@ -126,21 +141,21 @@ namespace GranblueBotConsole
                 Thread.Sleep(3000);
 
                 //Raid
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[0], botYCoordinates[0]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[0], botYCoordinates[0]);
                 Thread.Sleep(2000);
 
                 //Select
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[1], (summonCount * 70) + botYCoordinates[1]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[1], (summonCount * 70) + botYCoordinates[1]);
                 Thread.Sleep(2000);
 
                 //OK
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[2], botYCoordinates[2]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[2], botYCoordinates[2]);
                 Thread.Sleep(2700);
 
                 //Auto
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[3], botYCoordinates[3]);
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[3], botYCoordinates[3]);
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[3], botYCoordinates[3]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[3], botYCoordinates[3]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[3], botYCoordinates[3]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[3], botYCoordinates[3]);
 
                 Thread.Sleep(6500);
 
@@ -148,8 +163,8 @@ namespace GranblueBotConsole
                 Thread.Sleep(2000);
 
                 //Dulo
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[4], botYCoordinates[4]);
-                SimMouse.Click(MouseButtons.Left, botXCoordinates[4], botYCoordinates[4]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[4], botYCoordinates[4]);
+                //SimMouse.Click(MouseButtons.Left, botXCoordinates[4], botYCoordinates[4]);
 
                 if (numberOfRuns == botResetCount)
                 {
