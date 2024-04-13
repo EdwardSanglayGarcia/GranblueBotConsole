@@ -5,3 +5,10 @@ Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Deb
 Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.pdb
 Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.exe
 Z:\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.pdb
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.exe.config
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.exe
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.pdb
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.AssemblyReference.cache
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.exe
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.pdb
