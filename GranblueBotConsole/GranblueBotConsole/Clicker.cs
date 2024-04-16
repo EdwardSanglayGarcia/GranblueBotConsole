@@ -4,27 +4,11 @@ using System.Runtime.InteropServices;
 
 namespace GranblueBotConsole
 {
-    public static class Clicker
+    public static partial class Clicker
     {
         [System.Runtime.InteropServices.DllImport("user32.dll")]
         public static extern void mouse_event(uint flags, int x, int y, int data, int extraInfo);
-        public const int MOUSEEVENTF_LEFTDOWN = 0x02;
-        public const int MOUSEEVENTF_LEFTUP = 0x04;
-        public const int MOUSEEVENTF_RIGHTDOWN = 0x08;
-        public const int MOUSEEVENTF_RIGHTUP = 0x10; //test
-
-        [Flags]
-        public enum Action : uint
-        {
-            MoveOnly = 32769u,
-            LeftButtonDown = 32771u,
-            LeftButtonUp = 32773u,
-            MiddleButtonDown = 32801u,
-            MiddleButtonUp = 32833u,
-            RightButtonDown = 32777u,
-            RightButtonUp = 32785u
-        }
-
+         
         private static int ScreenWidth;
 
         private static int ScreenHeight;

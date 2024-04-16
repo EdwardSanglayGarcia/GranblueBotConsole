@@ -186,7 +186,7 @@ namespace GranblueBotConsole
             int positionX = mouseObject.X;
             int positionY = mouseObject.Y;
 
-            int choice;
+           
             while (true)
             {
                 mouseObject = Cursor.Position;
