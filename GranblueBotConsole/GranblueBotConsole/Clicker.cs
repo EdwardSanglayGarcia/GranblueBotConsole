@@ -18,6 +18,18 @@ namespace GranblueBotConsole
             VERTSIZE = 10
         }
 
+        [Flags]
+        public enum Action : uint
+        {
+            MoveOnly = 32769u,
+            LeftButtonDown = 32771u,
+            LeftButtonUp = 32773u,
+            MiddleButtonDown = 32801u,
+            MiddleButtonUp = 32833u,
+            RightButtonDown = 32777u,
+            RightButtonUp = 32785u
+        }
+
         [DllImport("gdi32.dll")]
         public static extern int GetDeviceCaps(IntPtr windowHandle, int caps);
 

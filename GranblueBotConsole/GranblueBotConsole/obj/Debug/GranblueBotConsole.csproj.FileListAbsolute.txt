@@ -12,3 +12,11 @@ C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotCo
 C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CoreCompileInputs.cache
 C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.exe
 C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.exe.config
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.exe
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\GranblueBotConsole.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.SuggestedBindingRedirects.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.exe
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.pdb

@@ -15,73 +15,49 @@ namespace GranblueBotConsole
         static void Main(string[] args)
         {
 
-            Clicker.Testing(Clicker.Action.LeftButtonDown, 101, 95);
-            Clicker.Testing(Clicker.Action.LeftButtonUp, 101, 95);
-            Thread.Sleep(4000);
-            Clicker.Testing(Clicker.Action.LeftButtonDown, 236, 253);
-            Clicker.Testing(Clicker.Action.LeftButtonUp, 236, 253);
+            //Clicker.Testing(Clicker.Action.LeftButtonDown, 101, 95);
+            //Clicker.Testing(Clicker.Action.LeftButtonUp, 101, 95);
+            //Thread.Sleep(4000);
+            //Clicker.Testing(Clicker.Action.LeftButtonDown, 236, 253);
+            //Clicker.Testing(Clicker.Action.LeftButtonUp, 236, 253);
 
 
 
 
-            //Test.MouseClick(101,95);
+            //Test.MouseClick(101, 95);
             //Thread.Sleep(2000);
-            //Test.MouseClick(236,253);
-            ////Test.MouseClick();
-            ////Test.MouseClick();
-            //Console.Read();
-            //int choice;
-
-            //Console.WriteLine("Press ESC to stop");
-            //do
-            //{
-            //    while (!Console.KeyAvailable)
-            //    {
-
-            //        var data = Console.ReadKey(true).Key;
-            //        Console.WriteLine(data);
-            //        Point mouseObject = Cursor.Position;
-            //        int positionX = mouseObject.X;
-            //        int positionY = mouseObject.Y;
-            //        Console.WriteLine($"({positionX},{positionY})");
-
-            //        //Point mouseObject = Cursor.Position;
-            //        //int positionX = mouseObject.X;
-            //        //int positionY = mouseObject.Y;
-            //        //Console.WriteLine($"{mouseObject.X},{mouseObject.Y}");
-
-            //        //GetLivePositions();
-            //    }
-            //} while (Console.ReadKey(true).Key != ConsoleKey.Escape);
-
-            //while (true)
-            //{
-            //    Console.Clear();
-            //    Console.WriteLine($"Do you know the current locations?\n[1] - Run Bot\n[2] - Positions");
-            //    choice = Convert.ToInt32(Console.ReadLine());
-            //    if (choice == 1)
-            //    {
-            //        RunningProgram();//
-            //    }
-            //    if (choice == 2)
-            //    {
-            //        GetLivePositions();
-            //    }
-            //    else
-            //    {
-            //        break;
-            //    }
-            //}
+            //Test.MouseClick(236, 253);
+            //Test.MouseClick();
+            //Test.MouseClick();
 
 
-            //RunningProgram();
+            Console.WriteLine("Press ESC to stop");
 
-            //#region Test
-            ////GetLivePositions();
-            ////RecoverPots(4);
-            //#endregion
 
-        }
+            while (!Console.KeyAvailable)
+            {
+
+                var data = Console.ReadKey(true).Key;
+                Console.WriteLine(data);
+                Point mouseObject = Cursor.Position;
+                int positionX = mouseObject.X;
+                int positionY = mouseObject.Y;
+                Console.WriteLine($"({positionX},{positionY})");
+
+                if (data == ConsoleKey.Escape)
+                {
+                    break;
+                }
+            }
+
+                //RunningProgram();
+
+                #region Test
+                //GetLivePositions();
+                //RecoverPots(4);
+                #endregion
+
+            }
 
         static void RunningProgram()
         {
