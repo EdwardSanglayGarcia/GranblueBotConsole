@@ -33,29 +33,22 @@ namespace GranblueBotConsole
 
             Console.WriteLine("Press ESC to stop");
 
+            Point mouseObject = Cursor.Position;
 
             while (!Console.KeyAvailable)
             {
 
                 var data = Console.ReadKey(true).Key;
                 Console.WriteLine(data);
-                Point mouseObject = Cursor.Position;
-                int positionX = mouseObject.X;
-                int positionY = mouseObject.Y;
-                Console.WriteLine($"({positionX},{positionY})");
+                mouseObject = Cursor.Position;
+                
+                Console.WriteLine($"({mouseObject.X},{mouseObject.Y})");
 
                 if (data == ConsoleKey.Escape)
                 {
                     break;
                 }
             }
-
-                //RunningProgram();
-
-                #region Test
-                //GetLivePositions();
-                //RecoverPots(4);
-                #endregion
 
             }
 

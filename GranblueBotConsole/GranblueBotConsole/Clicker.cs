@@ -12,11 +12,6 @@ namespace GranblueBotConsole
         private static int ScreenWidth;
 
         private static int ScreenHeight;
-        internal enum DeviceCaps
-        {
-            HORZSIZE = 8,
-            VERTSIZE = 10
-        }
 
         [Flags]
         public enum Action : uint
