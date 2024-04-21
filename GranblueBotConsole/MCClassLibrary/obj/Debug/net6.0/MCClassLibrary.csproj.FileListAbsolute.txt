@@ -1,0 +1,12 @@
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\bin\Debug\net6.0\MCClassLibrary.deps.json
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\bin\Debug\net6.0\MCClassLibrary.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\bin\Debug\net6.0\MCClassLibrary.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.AssemblyInfoInputs.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.AssemblyInfo.cs
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\refint\MCClassLibrary.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\MCClassLibrary.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCClassLibrary\obj\Debug\net6.0\ref\MCClassLibrary.dll

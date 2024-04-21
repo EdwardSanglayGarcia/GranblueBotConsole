@@ -47,10 +47,19 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Clicker.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MCGBFClassLibrary\MCGBFClassLibrary.csproj">
+      <Project>{973f52b0-d863-4a78-b83b-7db3c22bbcfb}</Project>
+      <Name>MCGBFClassLibrary</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MCGBFTest\MCGBFTest.csproj">
+      <Project>{19360ea6-a69e-4393-ab39-b0d19290c8f9}</Project>
+      <Name>MCGBFTest</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

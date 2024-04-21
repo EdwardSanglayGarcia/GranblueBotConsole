@@ -20,3 +20,8 @@ C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\Granblu
 C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CoreCompileInputs.cache
 C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.exe
 C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\MCGBFClassLibrary.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\MCGBFTest.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\MCGBFClassLibrary.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\bin\Debug\MCGBFTest.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\GranblueBotConsole\obj\Debug\GranblueBotConsole.csproj.CopyComplete

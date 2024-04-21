@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "a1OPxvWhnkE+h8NnoNQ9s5UkhmqErrLV+cCP6QMshll8rqEv3YA/LTbksPnvAPpTDpP3e4qqFw9J4GPVV4+pNg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edward\\Desktop\\Repository\\GranblueBotConsole\\GranblueBotConsole\\MCClassLibrary\\MCClassLibrary.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "PTNLD20986KL445Sy3003PJgorb5I9M6cP4G0nh5w+5Ckr8K1NUnjBJXbDr9+Kcore6WzcgEu2GysDhwVlyhEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Edward\\Desktop\\Repository\\GranblueBotConsole\\GranblueBotConsole\\MouseClicker\\MouseClicker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512",
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\Edward\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512"
+  ],
+  "logs": []
+}
