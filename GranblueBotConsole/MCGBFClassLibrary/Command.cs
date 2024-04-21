@@ -11,7 +11,7 @@ namespace MCGBFClassLibrary
     public static class Command
     {
         private static IDictionary<int[], int> dataCoordinates = new Dictionary<int[], int>();
-        private const int DEFAULT_WAITING_TIME = 5500;
+        private const int DEFAULT_WAITING_TIME = 4000;
         public static void Operate()
         {
 
@@ -47,6 +47,17 @@ namespace MCGBFClassLibrary
 
                    // dataCoordinates.ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], 1000));
                     continue;
+                }
+
+                if (data == ConsoleKey.D4)
+                {
+                    Thread.Sleep(3000);
+                    dataCoordinates.Clear();
+
+                    while (true)
+                    {
+                        DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], 1000));
+                    }
                 }
 
                 if (data == ConsoleKey.D0)
