@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Threading;
 
 namespace MCGBFClassLibrary
 {
@@ -17,18 +19,36 @@ namespace MCGBFClassLibrary
             Console.WriteLine($"[0] - View List of Added Position/s\n");
         }
 
+        public static void DoTest()
+        {
+            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 185, 139, 3000); //TAB
+            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 185, 591, 3000); //SUMMON
+            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 288, 603, 8000); //OK
+            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 336, 587, 2000); //summon
+            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 307, 418, 2000); //attack
+            SendKeys.SendWait("{F5}");
+            Thread.Sleep(5000);
+            
+        }
+
         public static IDictionary<int[], int> MOCK_TEST_DATA()
         {
             IDictionary<int[], int> testDictionary = new Dictionary<int[], int>();
-            const int DEFAULT_INT = 4500;
+            testDictionary.Add(new int[] { 185, 139 }, 3000);
+            testDictionary.Add(new int[] { 185, 591 }, 4000);
+            testDictionary.Add(new int[] { 288, 603 }, 7000);
+            testDictionary.Add(new int[] { 262, 516 }, 7000); //char
+            testDictionary.Add(new int[] { 285, 541 }, 3000); //skill
+            testDictionary.Add(new int[] { 311, 426 }, 7000); //atk
 
-            testDictionary.Add(new int[] { 173, 137 }, DEFAULT_INT);
-            testDictionary.Add(new int[] { 154, 502 }, DEFAULT_INT);
-            testDictionary.Add(new int[] { 298, 608 }, DEFAULT_INT);
-            testDictionary.Add(new int[] { 259, 511 }, DEFAULT_INT);
-            testDictionary.Add(new int[] { 274, 540 }, DEFAULT_INT);
-            testDictionary.Add(new int[] { 399, 421 }, DEFAULT_INT);
 
+
+
+
+            DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
+
+
+            SendKeys.SendWait("{F5}");
             return testDictionary;
         }
     }

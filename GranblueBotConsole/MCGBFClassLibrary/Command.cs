@@ -52,12 +52,17 @@ namespace MCGBFClassLibrary
                 if (data == ConsoleKey.D4)
                 {
                     Thread.Sleep(3000);
-                    dataCoordinates.Clear();
-
                     while (true)
                     {
-                        DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], 1000));
+                        DefaultData.DoTest();
                     }
+                    
+                    //dataCoordinates.Clear();
+
+                    //while (true)
+                    //{
+                    //    DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
+                    //}
                 }
 
                 if (data == ConsoleKey.D0)
