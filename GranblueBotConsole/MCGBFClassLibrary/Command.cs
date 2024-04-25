@@ -15,15 +15,9 @@ namespace MCGBFClassLibrary
         public static void Operate()
         {
 
-
-
-            
-
             Point mouseObject;
             while (!Console.KeyAvailable)
             {
-
-     
                 var data = Console.ReadKey(true).Key;
                 mouseObject = Cursor.Position;
 
