@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\granbluebotconsole\\clicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|solutionrelative:granbluebotconsole\\clicker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\mcgbfclasslibrary\\defaultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|solutionrelative:mcgbfclasslibrary\\defaultdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\granbluebotconsole\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|solutionrelative:granbluebotconsole\\action.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\mcgbfclasslibrary\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|solutionrelative:mcgbfclasslibrary\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\mcgbfclasslibrary\\mousecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|solutionrelative:mcgbfclasslibrary\\mousecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43C676FB-0CC7-468A-B1DE-20DDCC75172E}|GranblueBotConsole\\GranblueBotConsole.csproj|solutionrelative:granbluebotconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{19360EA6-A69E-4393-AB39-B0D19290C8F9}|MCGBFTest\\MCGBFTest.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\mcgbftest\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{19360EA6-A69E-4393-AB39-B0D19290C8F9}|MCGBFTest\\MCGBFTest.csproj|solutionrelative:mcgbftest\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|c:\\users\\edward\\repositories\\granbluebotconsole\\granbluebotconsole\\mcgbfclasslibrary\\screensize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}|MCGBFClassLibrary\\MCGBFClassLibrary.csproj|solutionrelative:mcgbfclasslibrary\\screensize.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,13 +38,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Program.cs",
               "RelativeDocumentMoniker": "GranblueBotConsole\\Program.cs",
               "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Program.cs",
               "RelativeToolTip": "GranblueBotConsole\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAArwBEAAAAUAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAArwBIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-12T23:34:15.448Z",
               "IsPinned": true,
@@ -41,28 +53,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Clicker.cs",
-              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Clicker.cs",
-              "RelativeDocumentMoniker": "GranblueBotConsole\\Clicker.cs",
-              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Clicker.cs",
-              "RelativeToolTip": "GranblueBotConsole\\Clicker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAJAAAA",
+              "Title": "DefaultData.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\DefaultData.cs",
+              "RelativeDocumentMoniker": "MCGBFClassLibrary\\DefaultData.cs",
+              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\DefaultData.cs",
+              "RelativeToolTip": "MCGBFClassLibrary\\DefaultData.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwCsAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-12T23:34:34.505Z",
-              "IsPinned": true,
+              "WhenOpened": "2024-04-25T05:16:02.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MouseCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\MouseCommand.cs",
+              "RelativeDocumentMoniker": "MCGBFClassLibrary\\MouseCommand.cs",
+              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\MouseCommand.cs",
+              "RelativeToolTip": "MCGBFClassLibrary\\MouseCommand.cs",
+              "ViewState": "AQIAAC8AAAAAAAAAAAAAAD8AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:14:59.797Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Action.cs",
-              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Action.cs",
-              "RelativeDocumentMoniker": "GranblueBotConsole\\Action.cs",
-              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\GranblueBotConsole\\Action.cs",
-              "RelativeToolTip": "GranblueBotConsole\\Action.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAATAAAA",
+              "Title": "Command.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\Command.cs",
+              "RelativeDocumentMoniker": "MCGBFClassLibrary\\Command.cs",
+              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\Command.cs",
+              "RelativeToolTip": "MCGBFClassLibrary\\Command.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAgwDMAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-13T05:29:53.483Z",
+              "WhenOpened": "2024-04-25T05:13:05.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFTest\\Test.cs",
+              "RelativeDocumentMoniker": "MCGBFTest\\Test.cs",
+              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFTest\\Test.cs",
+              "RelativeToolTip": "MCGBFTest\\Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:11:12.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScreenSize.cs",
+              "DocumentMoniker": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\ScreenSize.cs",
+              "RelativeDocumentMoniker": "MCGBFClassLibrary\\ScreenSize.cs",
+              "ToolTip": "C:\\Users\\Edward\\Repositories\\GranblueBotConsole\\GranblueBotConsole\\MCGBFClassLibrary\\ScreenSize.cs",
+              "RelativeToolTip": "MCGBFClassLibrary\\ScreenSize.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-25T05:11:06.909Z",
               "EditorCaption": ""
             }
           ]

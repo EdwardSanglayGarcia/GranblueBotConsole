@@ -36,11 +36,12 @@ namespace MCGBFClassLibrary
                 {
                     foreach (var executionData in dataCoordinates)
                     {
-                        MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, executionData.Key[0], executionData.Key[1], 4000);
+                        MouseCommand.PerformAction(MouseCommand.Action.LeftButtonDown, executionData.Key[0], executionData.Key[1], 4000);
                     }
-
-                   // dataCoordinates.ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], 1000));
+                    
+                    // dataCoordinates.ToList().ForEach(x => MouseCommand.PerformAction(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], 1000));
                     continue;
+                    
                 }
 
                 if (data == ConsoleKey.D4)
@@ -55,7 +56,7 @@ namespace MCGBFClassLibrary
 
                     //while (true)
                     //{
-                    //    DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
+                    //    DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.PerformAction(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
                     //}
                 }
 

@@ -17,12 +17,7 @@ namespace GranblueBotConsole
         {
             DefaultData.DisplayInstructions();
             Command.Operate();
-
-
-           
-
         }
-
       
     }
 }

@@ -49,7 +49,7 @@ namespace MCGBFClassLibrary
             ScreenHeight = UserScreenSize.Height();
         }
 
-        public static void Testing(Action mouseOption, int x, int y, int time)
+        public static void PerformAction(Action mouseOption, int x, int y, int time)
         {
             double num = 65535.0 * (double)(x + 1) / (double)ScreenWidth;
             double num2 = 65535.0 * (double)(y + 1) / (double)ScreenHeight;

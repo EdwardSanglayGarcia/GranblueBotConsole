@@ -19,37 +19,26 @@ namespace MCGBFClassLibrary
             Console.WriteLine($"[0] - View List of Added Position/s\n");
         }
 
-        public static void DoTest()
-        {
-            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 185, 139, 3000); //TAB
-            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 185, 591, 3000); //SUMMON
-            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 288, 603, 8000); //OK
-            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 336, 587, 2000); //summon
-            MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, 307, 418, 2000); //attack
-            SendKeys.SendWait("{F5}");
-            Thread.Sleep(5000);
-            
-        }
-
-        public static IDictionary<int[], int> MOCK_TEST_DATA()
+        private static IDictionary<int[], int> MOCK_TEST_DATA()
         {
             IDictionary<int[], int> testDictionary = new Dictionary<int[], int>();
             testDictionary.Add(new int[] { 185, 139 }, 3000);
             testDictionary.Add(new int[] { 185, 591 }, 4000);
             testDictionary.Add(new int[] { 288, 603 }, 7000);
-            testDictionary.Add(new int[] { 262, 516 }, 7000); //char
-            testDictionary.Add(new int[] { 285, 541 }, 3000); //skill
-            testDictionary.Add(new int[] { 311, 426 }, 7000); //atk
+            testDictionary.Add(new int[] { 336, 587 }, 7000);
+            testDictionary.Add(new int[] { 307, 418 }, 3000);
 
-
-
-
-
-            DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.Testing(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
-
-
-            SendKeys.SendWait("{F5}");
+            //DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.PerformAction(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
+            //SendKeys.SendWait("{F5}");
             return testDictionary;
+        }
+
+        public static void DoTest()
+        {
+            DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.PerformAction(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
+            SendKeys.SendWait("{F5}");
+            Thread.Sleep(5000);
         }
     }
 }
+ 
