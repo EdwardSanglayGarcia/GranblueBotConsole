@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GranblueBotConsole", "GranblueBotConsole\GranblueBotConsole.csproj", "{43C676FB-0CC7-468A-B1DE-20DDCC75172E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCGBFClassLibrary", "MCGBFClassLibrary\MCGBFClassLibrary.csproj", "{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MCGBFTest", "MCGBFTest\MCGBFTest.csproj", "{19360EA6-A69E-4393-AB39-B0D19290C8F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{43C676FB-0CC7-468A-B1DE-20DDCC75172E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43C676FB-0CC7-468A-B1DE-20DDCC75172E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43C676FB-0CC7-468A-B1DE-20DDCC75172E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{973F52B0-D863-4A78-B83B-7DB3C22BBCFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19360EA6-A69E-4393-AB39-B0D19290C8F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19360EA6-A69E-4393-AB39-B0D19290C8F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19360EA6-A69E-4393-AB39-B0D19290C8F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19360EA6-A69E-4393-AB39-B0D19290C8F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

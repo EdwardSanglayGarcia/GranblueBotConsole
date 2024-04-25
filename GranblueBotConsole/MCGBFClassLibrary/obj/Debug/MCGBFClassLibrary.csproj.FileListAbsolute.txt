@@ -1,0 +1,12 @@
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\bin\Debug\MCGBFClassLibrary.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\bin\Debug\MCGBFClassLibrary.pdb
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.dll
+C:\Users\Edward\Desktop\Repository\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.pdb
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\bin\Debug\MCGBFClassLibrary.dll
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\bin\Debug\MCGBFClassLibrary.pdb
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.csproj.AssemblyReference.cache
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.dll
+C:\Users\Edward\Repositories\GranblueBotConsole\GranblueBotConsole\MCGBFClassLibrary\obj\Debug\MCGBFClassLibrary.pdb

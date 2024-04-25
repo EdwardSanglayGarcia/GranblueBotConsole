@@ -1,2 +1,0 @@
-Z:\Repositories\GranblueBotConsole\GranblueBotConsole\ClickingMouseLibrary\obj\Debug\ClickingMouseLibrary.csproj.AssemblyReference.cache
-Z:\Repositories\GranblueBotConsole\GranblueBotConsole\ClickingMouseLibrary\obj\Debug\ClickingMouseLibrary.csproj.CoreCompileInputs.cache
