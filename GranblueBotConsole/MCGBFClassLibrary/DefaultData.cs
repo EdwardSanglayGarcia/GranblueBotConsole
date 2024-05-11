@@ -27,9 +27,6 @@ namespace MCGBFClassLibrary
             testDictionary.Add(new int[] { 288, 603 }, 7000);
             testDictionary.Add(new int[] { 336, 587 }, 7000);
             testDictionary.Add(new int[] { 307, 418 }, 3000);
-
-            //DefaultData.MOCK_TEST_DATA().ToList().ForEach(x => MouseCommand.PerformAction(MouseCommand.Action.LeftButtonDown, x.Key[0], x.Key[1], x.Value));
-            //SendKeys.SendWait("{F5}");
             return testDictionary;
         }
 
